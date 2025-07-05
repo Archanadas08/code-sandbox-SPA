@@ -1,0 +1,9 @@
+<h2>Recent Patients</h2>
+<table>
+  <tr><th>Name</th><th>Last Visit</th><th>Action</th></tr>
+  <tr *ngFor="let patient of patients">
+    <td>{{ patient.name }}</td>
+    <td>{{ patient.lastVisit }}</td>
+    <td><button>View Profile</button></td>
+  </tr>
+</table>

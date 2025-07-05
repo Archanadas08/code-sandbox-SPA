@@ -1,0 +1,9 @@
+<h2>Today's Appointments</h2>
+<table>
+  <tr><th>Time</th><th>Patient Name</th><th>Reason</th></tr>
+  <tr *ngFor="let appointment of appointments">
+    <td>{{ appointment.time }}</td>
+    <td>{{ appointment.name }}</td>
+    <td>{{ appointment.reason }}</td>
+  </tr>
+</table>

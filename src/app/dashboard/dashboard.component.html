@@ -1,0 +1,12 @@
+<div class="header">
+  <h1>Bayer Health</h1>
+  <nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/patients">Patient List</a>
+    <a routerLink="/appointments">Appointments</a>
+    <a (click)="logout()">Logout</a>
+  </nav>
+</div>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
